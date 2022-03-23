@@ -3,30 +3,20 @@ permalink: /
 title: "About me"
 excerpt: "About me"
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
-Welcome! I am a Postdoctoral Research Fellow in the
-[Weidenbaum Center on the Economy, Government, and Public Policy](https://wc.wustl.edu/) 
-and [Department of Political Science](https://polisci.wustl.edu/) at
-[Washington University in St. Louis](https://wustl.edu/). I am also an
-affiliated researcher with the
-[Data-driven Analysis of Peace Project](https://dapp-lab.org) lab. I specialize
-in International Relations and Political Methodology. I earned my Ph.D in
-Political Science from the
-[University *of* North Carolina *at* Chapel Hill](https://www.unc.edu/) and my
-B.A. in Political Science from [Haverford College](https://www.haverford.edu/).
+Welcome! I am a Research Officer in the [Department of Statistics](https://www.lse.ac.uk/statistics) at [London School of Economics and Political Sciences](https://www.lse.ac.uk).
+I completed my Ph.D. study in Statistics at [University of Kent](https://www.kent.ac.uk/mathematics-statistics-actuarial-science) in September 2021. My Ph.D. supervisor is [Professor Jian Zhang](https://www.kent.ac.uk/mathematics-statistics-actuarial-science/people/413/zhang-jian). Prior to that, I earned my Master degree in Statistics at [Yunnan University](http://www.ms.ynu.edu.cn/ENGLISH.htm). I was a student of [Professor Niansheng Tang](http://www.ms.ynu.edu.cn/info/1092/1634.htm).
 
-My work has been [published](publications) or is forthcoming in
-*International Studies Quarterly*, *Conflict Management and Peace Science*,
-*Political Science Research and Methods*, and *PS: Political Science & Politics*,
-among other outlets. My [research](research) explores the causes and
-consequences of political violence using a broad variety of methods such as
-latent variable models, geospatial analysis, and big data. While I primarily
-focus on civil conflict, I also examine contentious political phenomena
-including terrorism and economic statecraft, and develop new measures of
-institutions in international relations. I have [teaching](teaching) experience
-in both international relations and quantitative methodology, and am a certified
-instructor with [The Carpentries](https://carpentries.org/).
+My main research interest lies in
+
+- Change-point Detection and Machine Learning
+- Nonparametric Inference in High-dimensional Statistics
+- Neuroscience (MEG/EEG Source Imaging)
+  
+Currently, I am working with [Professor Piotr Fryzlewicz](https://stats.lse.ac.uk/fryzlewicz/) on the change-point detection.
+
+Before I joined in LSE in October 2021, I worked as a research assistant at University of Kent for two months.
