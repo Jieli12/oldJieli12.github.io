@@ -410,7 +410,7 @@ Then head back to the repo's settings page and see if the "ready to be published
 
 ![](/images/posts/creating-website/published.png)
 
-You'll notice that the URL for my site is http:/Jieli12.com, not http:/Jieli12.github.io. That's because I've bought a custom domain name for my site. While this does make your website seem slightly more profession, it's not free (unlike .github.io) and it can be a little tricky to set up. I'll cover how to get a custom domain name for your site in a future post.
+You'll notice that the URL for my site is http:/Jieli12.github.io, not http:/Jieli12.github.io. That's because I've bought a custom domain name for my site. While this does make your website seem slightly more profession, it's not free (unlike .github.io) and it can be a little tricky to set up. I'll cover how to get a custom domain name for your site in a future post.
 
 # Next steps
 
