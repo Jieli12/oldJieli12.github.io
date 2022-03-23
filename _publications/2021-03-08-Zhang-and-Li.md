@@ -1,5 +1,5 @@
 ---
-title: "Factorized Estimation of High-Dimensional  Nonparametric Covariance Models (Preprint)"
+title: "Factorized Estimation of High-Dimensional  Nonparametric Covariance Models"
 collection: publications
 permalink: /publication/2021-03-08-Zhang-and-Li
 date: 2021-03-08
