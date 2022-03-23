@@ -36,7 +36,7 @@ Anything after that second line of dashes will be translated into actual content
 
 ## Fill it out
 
-Now we need to make our new page actually say something. My software page lists the R packages I've contributed to and includes links to miscellaneous other bits of code like functions for working with video data in Python or the LaTeX template I used for my dissertation. You can check out the `.md` source file for my software page on my [GitHub](https://raw.githubusercontent.com/jayrobwilliams/jayrobwilliams.github.io/master/_pages/software.md).
+Now we need to make our new page actually say something. My software page lists the R packages I've contributed to and includes links to miscellaneous other bits of code like functions for working with video data in Python or the LaTeX template I used for my dissertation. You can check out the `.md` source file for my software page on my [GitHub](https://raw.githubusercontent.com/Jieli12/Jieli12.github.io/master/_pages/software.md).
 
 A couple of things to notice:
 
@@ -106,7 +106,7 @@ main:
     url: /cv/
 ```
 
-Again, you can check out the current version of this file for my site at my [GitHub](https://github.com/jayrobwilliams/jayrobwilliams.github.io/blob/master/_data/navigation.yml) if you want. If I've changed anything in the navigation menu since I wrote this post, those changes will be reflected there.
+Again, you can check out the current version of this file for my site at my [GitHub](https://github.com/Jieli12/Jieli12.github.io/blob/master/_data/navigation.yml) if you want. If I've changed anything in the navigation menu since I wrote this post, those changes will be reflected there.
 
 You'll also notice that the Guide link is no longer there in my `_data/navigation.yml`. Removing elements from this file drops them from the navigation menu, so if there are any other pages in the template you don't plan to use, go ahead and remove them now.
 

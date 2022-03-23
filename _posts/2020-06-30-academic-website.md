@@ -33,7 +33,7 @@ There are other guides to using static site generators to make academic websites
 
 ## Conventions
 
-In this tutorial, I use a couple of conventions to describe computer code and the actions you'll do with it. Anytime you see content between two angle brackets, you should replace the content with the appropriate version for yourself. For example, \<yourusername\> would become jayrobwilliams for me, because that is my GitHub username. You'll also frequently see 
+In this tutorial, I use a couple of conventions to describe computer code and the actions you'll do with it. Anytime you see content between two angle brackets, you should replace the content with the appropriate version for yourself. For example, \<yourusername\> would become Jieli12 for me, because that is my GitHub username. You'll also frequently see 
 
 ```
 highlighted code blocks like this
@@ -57,15 +57,15 @@ Once you've logged into GitHub, the next step is to head over to the [repository
 
 ![](/images/posts/creating-website/fork.png)
 
-After a brief wait (and an amusing GIF), you'll land at your forked copy of the repo. If you look closely, you'll notice that the name in the top left has changed. Where it originally said "academicpages/academicpages.github.io" it should now read "\<yourusername\>/academicpages.github.io". As you can see below, for me this is now "jayrobwilliams/academicpages.github.io". We need to change this! Not just so people know that this is your website, but to get it online. Click the Settings button with the <i class="fa fa-fw fa-cog" aria-hidden="true"></i> icon (highlighted in green below).
+After a brief wait (and an amusing GIF), you'll land at your forked copy of the repo. If you look closely, you'll notice that the name in the top left has changed. Where it originally said "academicpages/academicpages.github.io" it should now read "\<yourusername\>/academicpages.github.io". As you can see below, for me this is now "Jieli12/academicpages.github.io". We need to change this! Not just so people know that this is your website, but to get it online. Click the Settings button with the <i class="fa fa-fw fa-cog" aria-hidden="true"></i> icon (highlighted in green below).
 
 ![](/images/posts/creating-website/settings.png)
 
-This will, unsurprisingly, take you to the Settings page. The very first option (highlighted in green below) is the repository name, and that's all we need to worry about now. It should look like this, with \<yourusername\> in place of jayrobwilliams before the .github.io. Now, we need to change the repository name to \<yourusername\>.github.io. It's important that the first part of the repo name *exactly* match your GitHub username, or you'll run into trouble later when putting your website online.
+This will, unsurprisingly, take you to the Settings page. The very first option (highlighted in green below) is the repository name, and that's all we need to worry about now. It should look like this, with \<yourusername\> in place of Jieli12 before the .github.io. Now, we need to change the repository name to \<yourusername\>.github.io. It's important that the first part of the repo name *exactly* match your GitHub username, or you'll run into trouble later when putting your website online.
 
 ![](/images/posts/creating-website/rename.png)
 
-In my case, I renamed the repo to "jayrobwilliams.github.io" because my GitHub username is jayrobwilliams.
+In my case, I renamed the repo to "Jieli12.github.io" because my GitHub username is Jieli12.
 
 ![](/images/posts/creating-website/renamed.png)
 
@@ -289,10 +289,10 @@ index 1dc605c..4affb4e 100644
 +name                     : &name "Rob Williams"
  description              : &description "personal description"
 -url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-+url                      : https://jayrobwilliams.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
++url                      : https://Jieli12.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
  baseurl                  : "" # the subpath of your site, e.g. "/blog"
 -repository               : "academicpages/academicpages.github.io"
-+repository               : "jayrobwilliams/jayrobwilliams.github.io"
++repository               : "Jieli12/Jieli12.github.io"
  teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
  breadcrumbs              : false # true, false (default)
  words_per_minute         : 160
@@ -350,7 +350,7 @@ Compressing objects: 100% (5/5), done.
 Writing objects: 100% (5/5), 426 bytes | 426.00 KiB/s, done.
 Total 5 (delta 4), reused 0 (delta 0)
 remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
-To github.com:jayrobwilliams/jayrobwilliams.github.io.git
+To github.com:Jieli12/Jieli12.github.io.git
    83c3bc4..a8af7b1  master -> master
 ```
 
@@ -410,7 +410,7 @@ Then head back to the repo's settings page and see if the "ready to be published
 
 ![](/images/posts/creating-website/published.png)
 
-You'll notice that the URL for my site is http:/jayrobwilliams.com, not http:/jayrobwilliams.github.io. That's because I've bought a custom domain name for my site. While this does make your website seem slightly more profession, it's not free (unlike .github.io) and it can be a little tricky to set up. I'll cover how to get a custom domain name for your site in a future post.
+You'll notice that the URL for my site is http:/Jieli12.com, not http:/Jieli12.github.io. That's because I've bought a custom domain name for my site. While this does make your website seem slightly more profession, it's not free (unlike .github.io) and it can be a little tricky to set up. I'll cover how to get a custom domain name for your site in a future post.
 
 # Next steps
 

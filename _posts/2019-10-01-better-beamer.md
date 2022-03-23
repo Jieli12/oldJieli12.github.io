@@ -343,7 +343,7 @@ Sticking all of the below in your preamble will greatly improve the visual appea
 ```
 {% endraw %}
 
-I've combined all of the LaTeX code above into a style file called [`better-beamer.sty`](https://github.com/jayrobwilliams/TeX-Misc/blob/master/better-beamer.sty) available on my GitHub. To avoid having to copy and paste this code into the preamble of every presentation you make, you can just load the style file instead! If you place the style file into the same directory as your `.tex` file, you just need to add:
+I've combined all of the LaTeX code above into a style file called [`better-beamer.sty`](https://github.com/Jieli12/TeX-Misc/blob/master/better-beamer.sty) available on my GitHub. To avoid having to copy and paste this code into the preamble of every presentation you make, you can just load the style file instead! If you place the style file into the same directory as your `.tex` file, you just need to add:
 
 ```latex
 \usepackage{better-beamer}

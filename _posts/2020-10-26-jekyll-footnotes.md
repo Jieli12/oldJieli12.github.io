@@ -154,10 +154,10 @@ footnotes need to be all on the same line, this will break them and you’ll hav
 a bunch of sentence fragments at the end of your page right above the equally
 fragmented footnotes. To fix this, we need to use the `--wrap` argument to
 Pandoc in our YAML header. Below is the YAML header for the `.Rmd`
-[file](https://github.com/jayrobwilliams/jayrobwilliams.github.io/blob/master/_source/2020-10-26-jekyll-footnotes.Rmd)
+[file](https://github.com/Jieli12/Jieli12.github.io/blob/master/_source/2020-10-26-jekyll-footnotes.Rmd)
 that
 generates the `.md`
-[file](https://github.com/jayrobwilliams/jayrobwilliams.github.io/blob/master/_posts/2020-10-26-jekyll-footnotes.md)
+[file](https://github.com/Jieli12/Jieli12.github.io/blob/master/_posts/2020-10-26-jekyll-footnotes.md)
 that Jekyll uses to generate the HTML your browser
 uses to render this page.
 

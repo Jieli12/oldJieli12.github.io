@@ -16,7 +16,7 @@ This is a followup to my previous post on [creating an academic website]({{ site
 
 <!--more-->
 
-You'll notice that the differences between my website and the template aren't limited to my mug in the sidebar on the left. These differences are especially apparent if you compare my [publications](https://jayrobwilliams.com/publications/) page with the [template's](https://academicpages.github.io/publications/). You'll notice on my page that article titles no longer link to separate pages and I've got fancy icons like <i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i> to link to my PDF copy and <i class="fa fa-fw fa-link" aria-hidden="true"></i> to link to the version of record.
+You'll notice that the differences between my website and the template aren't limited to my mug in the sidebar on the left. These differences are especially apparent if you compare my [publications](https://Jieli12.com/publications/) page with the [template's](https://academicpages.github.io/publications/). You'll notice on my page that article titles no longer link to separate pages and I've got fancy icons like <i class="fas fa-fw fa-file-pdf" aria-hidden="true"></i> to link to my PDF copy and <i class="fa fa-fw fa-link" aria-hidden="true"></i> to link to the version of record.
 
 I've made several minor changes from the template to make my website feel a bit more like my own. These tweaks are varyingly difficult to accomplish, but they all involve a bit of trial and error. While academicpages is a great template, the accompanying documentation isn't *particularly* useful if you want to make any changes that go beyond content into formatting. Thus, each new tweak I implement begins with something of a scavenger hunt.
 
