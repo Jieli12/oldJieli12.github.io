@@ -10,19 +10,14 @@ author_profile: true
   You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
 {% endif %}
 
-<!-- {% include base_path %} -->
-<!--
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %} -->
-<h2>Preprint</h2>
+<h2>1. Preprint</h2>
 {% for post in site.publications reversed %}
   {% if post.pubtype == 'preprint' %}
       {% include archive-single.html %}
   {% endif %}
 {% endfor %}
 
-<h2>Journal Articles</h2>
+<h2>2. Journal Articles</h2>
 {% for post in site.publications reversed %}
   {% if post.pubtype == 'journal' %}
       {% include archive-single.html %}
@@ -30,7 +25,7 @@ author_profile: true
 {% endfor %}
 
 
-<h2>PhD Thesis</h2>
+<h2>3. PhD Thesis</h2>
 {% for post in site.publications reversed %}
   {% if post.pubtype == 'thesis' %}
       {% include archive-single.html %}
