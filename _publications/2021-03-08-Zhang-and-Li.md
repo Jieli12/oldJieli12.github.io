@@ -4,6 +4,7 @@ collection: publications
 permalink: /publication/2021-03-08-Zhang-and-Li
 date: 2021-03-08
 venue: 'Scandinavian Journal of Statistics'
+pubtype: 'journal'
 paperurl: '/files/2021-03-08-Zhang-and-Li.pdf'
 link: 'https://doi.org/10.1111/sjos.12529'
 github: 'https://github.com/Jieli12'
