@@ -6,6 +6,21 @@ author_profile: true
 header:
   og_image: "research/ecdf.png"
 ---
-Introduce my research interest (to be done.)
 
 
+## Talks:
+
+### Invited Talk:
+
+- The 10th ICSA International Conference on Global Growth of Modern Statistics in the 21st Century, Shanghai Jiao Tong University, Shanghai,
+	China  Dec. 2016
+
+### Contributed Talk:
+
+- Factorized estimation of high-dimensional nonparametric covariance models. 2022 IMS Annal Meeting: Probability and Statistics, London 29 Jun. 2022
+- Scientific Computing Tips of Using R and Rcpp, University of Kent. 27 Apr. 2020
+- Covariance Regression Analysis, University of Kent. 17 May 2019
+- The Joint Graphical Lasso for Inverse Covariance Estimation across
+Multiple Classes, University of Kent. 09 Nov. 2018
+- Local Nonparametric Shrinkage Covariance Model, University of
+Kent. Nov. 2017
