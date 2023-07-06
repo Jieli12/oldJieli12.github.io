@@ -6,9 +6,8 @@ author_profile: true
 ---
 <sup>*</sup> Equal authorship
 
-{% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
-{% endif %}
+You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
+
 
 <h2>1. Preprint</h2>
 {% for post in site.publications reversed %}
