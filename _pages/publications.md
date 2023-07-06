@@ -6,7 +6,8 @@ author_profile: true
 ---
 <sup>*</sup> Equal authorship
 
-You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
+
+  You can also find my articles on <a href="{{'https://scholar.google.com/citations?user=sOhkmd8AAAAJ&hl=en'}}">my Google Scholar profile</a>.
 
 
 <h2>1. Preprint</h2>
