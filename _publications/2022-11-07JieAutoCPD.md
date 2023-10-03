@@ -2,9 +2,9 @@
 title: "Automatic Change-Point Detection in Time Series via Deep Learning"
 collection: publications
 permalink: /publication/2022-11-07JieAutoCPD
-date: 2023-06-12
-venue: 'arXiv'
-pubtype: 'preprint'
+date: 2023-10-02
+venue: 'Journal of the Royal Statistical Society Series B (with discussion)'
+pubtype: 'journal'
 paperurl: '/files/AutoCPD202306.pdf'
 link: 'https://arxiv.org/abs/2211.03860'
 github: 'https://github.com/Jieli12/AutoCPD'
