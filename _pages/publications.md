@@ -6,9 +6,7 @@ author_profile: true
 ---
 <sup>*</sup> Equal authorship
 
-
   You can also find my articles on <a href="{{'https://scholar.google.com/citations?user=sOhkmd8AAAAJ&hl=en'}}">my Google Scholar profile</a>.
-
 
 <h2>1. Preprint</h2>
 {% for post in site.publications reversed %}
@@ -23,7 +21,6 @@ author_profile: true
       {% include archive-single.html %}
   {% endif %}
 {% endfor %}
-
 
 <h2>3. PhD Thesis</h2>
 {% for post in site.publications reversed %}

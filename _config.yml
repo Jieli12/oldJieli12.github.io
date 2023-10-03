@@ -10,7 +10,7 @@ locale: "en-US"
 title: "Jie Li （李杰）"
 title_separator: "-"
 name: &name "Jie LI"
-description: &description "Research Officer in Statistics"
+description: &description "Neuroimaging Data Analyst KTP Associate"
 url: https://Jieli12.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl: "" # the subpath of your site, e.g. "/blog"
 repository: "Jieli12/Jieli12.github.io"
@@ -82,12 +82,12 @@ analytics:
 author:
   name: "Jie Li"
   avatar: "Jie-LSE-1.jpg"
-  bio: "Research Officer in Statistics"
+  bio: "Neuroimaging Data Analyst KTP Associate"
   location: "London, UK"
   employer: #"London School of Economics and Political Science"
   pubmed:
   googlescholar: "https://scholar.google.com/citations?user=sOhkmd8AAAAJ&hl=en"
-  email: "j.li196@lse.ac.uk"
+  email: "jl725@kent.ac.uk"
   researchgate: "https://www.researchgate.net/profile/Jie-Li-271"
   uri:
   bitbucket:

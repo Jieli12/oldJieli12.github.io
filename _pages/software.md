@@ -19,7 +19,5 @@ header:
 ---
 
 
+- Python package: [AutoCPD](https://pypi.org/project/autocpd/) for *Automatic Change-Point Detection in Time Series via Deep Learning*.
 - R package: [llfdr](https://github.com/Jieli12/llfdr) for *Divide-and-Combine Estimation of High-dimensional Nonparametric Covariance Models* in my PhD thesis.
-- Python scripts for *Automatic Change-Point Detection in Time Series via Deep Learning*, [AutoCPD](https://github.com/Jieli12/AutoCPD).
-
-
