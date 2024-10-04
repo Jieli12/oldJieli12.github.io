@@ -72,9 +72,9 @@ social:
 
 # Analytics
 analytics:
-  provider: "goatcounter" # false (default), "google", "google-universal", "custom", "goatcounter"
+  provider: "google-analytics-4" # false (default), "google", "google-universal", "custom", "goatcounter"
   google:
-    tracking_id:
+    tracking_id: G-3Y9VRE2QNL
   goatcounter:
     code: jieli12
 
