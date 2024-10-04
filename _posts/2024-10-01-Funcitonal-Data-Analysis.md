@@ -1,10 +1,12 @@
-<html>
-
-<head>
-  <title>Weekly Report</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+---
+title: 'Functional Data Analysis for Density Functions by Transformation to a Hilbert Space'
+date: 2024-10-01
+permalink: /posts/2024/10/Functional-Data-Analysis/
+tags:
+  - Density function
+  - Hilbert space
+  - Functional data analysis
+---
 
   <script type="text/javascript">
     window.MathJax = ({ "tex": { "tags": "ams", "tagSide": "right", "tagIndent": "0.8em", "inlineMath": [["$", "$"], ["\\(", "\\)"]], "displayMath": [["$$", "$$"], ["\\[", "\\]"]] }, "options": {}, "loader": {} });
@@ -762,11 +764,11 @@
       opacity: .4
     }
 
-    html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] #sidebar-toc-btn {
+    html body[for=html-export]:not[[data-presentation-mode]](html-show-sidebar-toc) #sidebar-toc-btn {
       opacity: 1
     }
 
-    html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc {
+    html body[for=html-export]:not[[data-presentation-mode]](html-show-sidebar-toc) .md-sidebar-toc {
       position: fixed;
       top: 0;
       left: 0;
@@ -780,45 +782,45 @@
       background-color: inherit
     }
 
-    html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar {
+    html body[for=html-export]:not[[data-presentation-mode]](html-show-sidebar-toc) .md-sidebar-toc::-webkit-scrollbar {
       width: 8px
     }
 
-    html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-track {
+    html body[for=html-export]:not[[data-presentation-mode]](html-show-sidebar-toc) .md-sidebar-toc::-webkit-scrollbar-track {
       border-radius: 10px;
       background-color: transparent
     }
 
-    html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-thumb {
+    html body[for=html-export]:not[[data-presentation-mode]](html-show-sidebar-toc) .md-sidebar-toc::-webkit-scrollbar-thumb {
       border-radius: 5px;
       background-color: rgba(150, 150, 150, .66);
       border: 4px solid rgba(150, 150, 150, .66);
       background-clip: content-box
     }
 
-    html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc a {
+    html body[for=html-export]:not[[data-presentation-mode]](html-show-sidebar-toc) .md-sidebar-toc a {
       text-decoration: none
     }
 
-    html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc {
+    html body[for=html-export]:not[[data-presentation-mode]](html-show-sidebar-toc) .md-sidebar-toc .md-toc {
       padding: 0 16px
     }
 
-    html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link {
+    html body[for=html-export]:not[[data-presentation-mode]](html-show-sidebar-toc) .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link {
       display: inline;
       padding: .25rem 0
     }
 
-    html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link div,
-    html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link p {
+    html body[for=html-export]:not[[data-presentation-mode]](html-show-sidebar-toc) .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link div,
+    html body[for=html-export]:not[[data-presentation-mode]](html-show-sidebar-toc) .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link p {
       display: inline
     }
 
-    html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper.highlighted .md-toc-link {
+    html body[for=html-export]:not[[data-presentation-mode]](html-show-sidebar-toc) .md-sidebar-toc .md-toc .md-toc-link-wrapper.highlighted .md-toc-link {
       font-weight: 800
     }
 
-    html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview {
+    html body[for=html-export]:not[[data-presentation-mode]](html-show-sidebar-toc) .markdown-preview {
       left: 300px;
       width: calc(100% - 300px);
       padding: 2em calc(50% - 457px - 300px / 2);
@@ -827,13 +829,13 @@
     }
 
     @media screen and (max-width:1274px) {
-      html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview {
+      html body[for=html-export]:not[[data-presentation-mode]](html-show-sidebar-toc) .markdown-preview {
         padding: 2em
       }
     }
 
     @media screen and (max-width:450px) {
-      html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview {
+      html body[for=html-export]:not[[data-presentation-mode]](html-show-sidebar-toc) .markdown-preview {
         width: 100%
       }
     }
@@ -851,54 +853,7 @@
     /*   https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css */
     .markdown-preview.markdown-preview {
       font-family: sans-serif;
-      font-size: 20px;
-    }
-
-    .markdown-preview.markdown-preview h1 {
-      background-color: rgba(227, 237, 205, 0.6);
-      padding: 0px;
-      /* Adjust padding as needed */
-      height: 50px;
-      /* Adjust height as needed */
-      line-height: 100px;
-      /* Match line-height to height for vertical centering */
-      text-align: left;
-      /* Align text to the left */
-      display: flex;
-      align-items: center;
-      /* Vertically center the text */
-    }
-
-    .markdown-preview.markdown-preview h2 {
-      background-color: rgba(227, 237, 205, 0.5);
-      padding: 0px;
-      /* Adjust padding as needed */
-      height: 40px;
-      /* Adjust height as needed */
-      line-height: 80px;
-      /* Match line-height to height for vertical centering */
-      text-align: left;
-      /* Align text to the left */
-      display: flex;
-      align-items: center;
-    }
-
-    .markdown-preview.markdown-preview h3 {
-      background-color: rgba(227, 237, 205, 0.4);
-      padding: 0px;
-      /* Adjust padding as needed */
-      height: 30px;
-      /* Adjust height as needed */
-      line-height: 60px;
-      /* Match line-height to height for vertical centering */
-      text-align: left;
-      /* Align text to the left */
-      display: flex;
-      align-items: center;
-    }
-
-    .markdown-preview.markdown-preview h4 {
-      background-color: rgba(227, 237, 205, 0.3);
+      font-size: 16px;
     }
 
     .markdown-preview.markdown-preview .r {
@@ -941,7 +896,7 @@
       // your code here
     });
   </script>
-</head>
+
 
 <body for="html-export">
 
@@ -1079,13 +1034,11 @@
       <span class="math inline">\(N\)</span> by an estimator <span class="math inline">\(\check{f}\)</span>. Here, <span
         class="math inline">\(N = N(n)\)</span> will implicitly represent a
       sequence that depends on <span class="math inline">\(n\)</span>, the
-      size of the sample of random densities.
-    </p>
+      size of the sample of random densities.</p>
     <p>For the theoretical results, a density estimator <span class="math inline">\(\check{f}\)</span> must satisfy the
       following
       consistency properties in terms of the <span class="math inline">\(L^2\)</span> and uniform metrics (denoted as
-      <span class="math inline">\(d_2\)</span> and <span class="math inline">\(d_{\infty}\)</span>, resp.):
-    </p>
+      <span class="math inline">\(d_2\)</span> and <span class="math inline">\(d_{\infty}\)</span>, resp.):</p>
     <ol type="1">
       <li>For a sequence <span class="math inline">\(b_N = o(1)\)</span>, the
         density estimator <span class="math inline">\(\check{f}\)</span>, based
@@ -1401,8 +1354,7 @@
       function <span class="math inline">\(\nu\)</span> and covariance
       function <span class="math inline">\(H\)</span> of the process <span class="math inline">\(X\)</span>. Letting
       <span class="math inline">\(\widehat {X}_i =\psi(\check{f}_i)\)</span>, the
-      empirical estimators are
-    </p>
+      empirical estimators are</p>
     <p><span class="math display">\[
         \begin{eqnarray}
         \label{eq:nu_est}
@@ -1438,8 +1390,7 @@
         \sqrt {\hat{\tau} _k}\hat{\rho} _k) (x).
         \nonumber
         \end{eqnarray}
-        \]</span>
-    </p>
+        \]</span></p>
     <p>In contrast to the modes of variation resulting from ordinary FPCA in
       Section 3, the transformation modes are bona fide density functions for
       any value of <span class="math inline">\(\alpha\)</span>. Thus, for
@@ -1457,10 +1408,10 @@
         _k \Biggr) (x).
         \end{equation}
         \]</span></p>
-    <p>Utilizing (\ref{eq:nu_est}), (\ref{eq:H_est}) and the ensuing
-      estimates of the eigenfunctions, the (transformation) principal
-      components, for the case of fully observed densities, are obtained in a
-      straightforward manner,</p>
+    <p>Utilizing (\ref{eq:nu_est}) and the ensuing estimates of the
+      eigenfunctions, the (transformation) principal components, for the case
+      of fully observed densities, are obtained in a straightforward
+      manner,</p>
     <p><span class="math display">\[
         \begin{equation}
         \label{eq:pc_est}
@@ -1493,10 +1444,9 @@
         \]</span></p>
     <p>using an estimator $\tilde{f}_\oplus $ of the Frechet mean.
       Truncating at <span class="math inline">\(K\)</span> included components
-      as in (\ref{eq:fnt_trnc}) or in (\ref{eq:fnt_trnc1}) and denoting the
-      truncated versions as <span class="math inline">\(f_{i,K}\)</span>, the
-      variance explained by the first <span class="math inline">\(K\)</span>
-      components is</p>
+      as in (\ref{eq:fnt_trnc1}) and denoting the truncated versions as <span class="math inline">\(f_{i,K}\)</span>,
+      the variance explained by the
+      first <span class="math inline">\(K\)</span> components is</p>
     <p><span class="math display">\[
         \begin{equation}\label{eq:var_ex}
         V_K:= V_\infty - E\bigl(d(f_1,
@@ -1536,8 +1486,8 @@
       densities or other functions that are not in a Hilbert space.
       Specifically, we will show that density representations in
       \eqref{eq:fnt_trnc1}, obtained via transformation, yield higher FVE
-      values than the ordinary representations in \eqref{eq:fnt_trnc}, thus
-      giving more efficient representations of the sample of densities.</p>
+      values than the ordinary representations, thus giving more efficient
+      representations of the sample of densities.</p>
     <div style="padding: 0.8rem 1rem; border-radius: 6px; margin: 1rem 0; background-color:#e0f2ff">
       <p style="position: relative; top: -0.6rem;">
         ❗
@@ -1550,244 +1500,7 @@
         There is no R code for the log hazard transformation.
       </p>
     </div>
-    <h1 id="misc">Misc</h1>
-    <h2 id="what-is-a-hilbert-space">What is a Hilbert space?</h2>
-    <p>A Hilbert space is a complete inner product space, which means it is
-      a vector space equipped with an inner product that allows length and
-      angle to be measured. The space is also complete, meaning that every
-      Cauchy sequence in the space converges to a limit within the space.</p>
-    <p>Here is a mathematical description of a Hilbert space:</p>
-    <p>Vector Space: A Hilbert space <span class="math inline">\(\mathcal{H}\)</span> is a vector space over the
-      field of real numbers $ \mathbb{R} $ or complex numbers $ \mathbb{C}
-      $.</p>
-    <ol type="1">
-      <li>
-        <p><strong>Inner Product</strong>: There exists an inner product
-          $\langle \cdot, \cdot \rangle : \mathcal{H} \times \mathcal{H}\to
-          \mathbb{R} $ (or $ \mathbb{C} $) that satisfies the following properties
-          for all $ x, y, z \in \mathcal{H} $ and $\alpha \in \mathbb{R} $ (or $
-          \mathbb{C} $):</p>
-      </li>
-      <li>
-        <p><strong>Conjugate Symmetry</strong>: $ \langle x, y \rangle =
-          \overline{\langle y, x \rangle} $</p>
-      </li>
-      <li>
-        <p><strong>Linearity in the First Argument</strong>: $ \langle
-          \alpha x + y, z\rangle = \alpha \langle x, z \rangle + \langle y, z
-          \rangle $</p>
-      </li>
-      <li>
-        <p><strong>Positive-Definiteness</strong>: $ \langle x, x \rangle
-          \geq 0 $ and $ \langle x, x \rangle = 0 $ if and only if $ x = 0
-          $</p>
-      </li>
-      <li>
-        <p><strong>Norm</strong>: The inner product induces a norm $
-          \left\Vert x \right\Vert = \sqrt{\langle x, x \rangle} $.</p>
-      </li>
-      <li>
-        <p><strong>Completeness</strong>: The space $ \mathcal{H} $ is
-          complete with respect to the norm <span class="math inline">\({\left\lVert \cdot \right\rVert}\)</span>,
-          meaning
-          that every Cauchy sequence $ { x_n } $ in $ \mathcal{H} $ converges to a
-          limit $ x \in \mathcal{H} $.</p>
-      </li>
-    </ol>
-    <p>In summary, a Hilbert space $ \mathcal{H} $ is a vector space with an
-      inner product that is complete with respect to the norm induced by the
-      inner product.</p>
-    <h2 id="what-is-l2-process">What is <span class="math inline">\(L^2\)</span> process?</h2>
-    <p>According to Ash, R. B. and Gardner, M. F. (1975) in <em>Topics in
-        Stochastic Processes</em>, an <span class="math inline">\(L^2\)</span>
-      process is a stochastic process whose sample paths are
-      square-integrable. This means that for each time <span class="math inline">\(t\)</span>, the expected value of the
-      square of
-      the process <span class="math inline">\(X(t)\)</span> is finite.</p>
-    <p>Mathematically, an <span class="math inline">\(L^2\)</span> process
-      <span class="math inline">\({X(t)}_{t \in T}\)</span> satisfies the
-      following condition:
-    </p>
-    <p><span class="math display">\[
-        \begin{equation}
-        \mathbb{E}[X(t)^2] &lt; \infty \quad \text{for all } t \in T
-        \end{equation}
-        \]</span></p>
-    <p>In other words, the process <span class="math inline">\(X(t)\)</span>
-      belongs to the space <span class="math inline">\(L^2\)</span>, which is
-      the space of square-integrable functions. This can also be expressed
-      as:</p>
-    <p><span class="math display">\[
-        \begin{equation}
-        \int_{-\infty}^{\infty} X(t)^2 \mathrm{d}P &lt; \infty
-        \end{equation}
-        \]</span></p>
-    <p>where <span class="math inline">\(P\)</span> is the probability
-      measure.</p>
-    <p>In summary, an <span class="math inline">\(L^2\)</span> process is a
-      stochastic process where each random variable <span class="math inline">\(X(t)\)</span> has a finite second
-      moment.</p>
-    <h2 id="quantile-synchronization">Quantile Synchronization</h2>
-    <p>The content may be not correct. <strong>Be careful</strong>.</p>
-    <p>Quantile synchronization is a method used to align functional data,
-      particularly density functions, by matching their quantiles. This
-      ensures that the features of the densities are aligned in a meaningful
-      way.</p>
-    <ol type="1">
-      <li>
-        <p><strong>Quantile Functions</strong>: For a given density function
-          <span class="math inline">\(f(x)\)</span>, the quantile function <span class="math inline">\(Q(p)\)</span> is
-          defined as the inverse of the
-          cumulative distribution function (CDF) <span class="math inline">\(F(x)\)</span>: <span
-            class="math display">\[
-            \begin{equation*}
-            Q(p) = F^{-1}(p) \quad \text{for} \quad p \in [0, 1]
-            \end{equation*}
-            \]</span> where <span class="math inline">\(F(x) = \int_{-\infty}^x f(t)
-            \ \mathrm{d}t\)</span>.
-        </p>
-      </li>
-      <li>
-        <p><strong>Target Quantile Function</strong>: Suppose we have a
-          target quantile function <span class="math inline">\(Q_T(p)\)</span>
-          that we want to synchronize our densities to.</p>
-      </li>
-      <li>
-        <p><strong>Warping Function</strong>: Define a warping function
-          <span class="math inline">\(h_i(p)\)</span> for each density <span class="math inline">\(f_i(x)\)</span> such
-          that: <span class="math display">\[
-            \begin{equation}\label{eq:warping_function}
-            Q_i(h_i(p)) = Q_T(p)
-            \end{equation}
-            \]</span> This means that the quantile <span class="math inline">\(p\)</span> of the target density
-          corresponds to
-          the quantile <span class="math inline">\(h_i(p)\)</span> of the <span class="math inline">\(i\)</span>-th
-          density.
-        </p>
-      </li>
-      <li>
-        <p><strong>Synchronized Density</strong>: The synchronized density
-          <span class="math inline">\(\tilde{f}_i(x)\)</span> can be obtained by
-          transforming the original density <span class="math inline">\(f_i(x)\)</span> using the warping function <span
-            class="math inline">\(h_i\)</span>: <span class="math display">\[
-            \begin{equation*}
-            \tilde{f}_i(x) = f_i(h_i^{-1}(F_T(x))) \cdot \frac{d}{dx}
-            h_i^{-1}(F_T(x))
-            \end{equation*}
-            \]</span> where <span class="math inline">\(F_T(x)\)</span> is the CDF
-          of the target density.
-        </p>
-      </li>
-    </ol>
-    <h2 id="example">Example</h2>
-    <p>Let’s consider a simple example where we have two densities <span class="math inline">\(f_1(x)\)</span> and <span
-        class="math inline">\(f_2(x)\)</span>, and we want to synchronize them
-      to a target density <span class="math inline">\(f_T(x)\)</span>.</p>
-    <ol type="1">
-      <li>
-        <p>Compute Quantile Functions: <span class="math display">\[
-            \begin{equation}
-            Q_1(p) = F_1^{-1}(p), \quad Q_2(p) = F_2^{-1}(p), \quad Q_T(p) =
-            F_T^{-1}(p)
-            \end{equation}
-            \]</span></p>
-      </li>
-      <li>
-        <p>Determine Warping Functions: <span class="math display">\[
-            \begin{equation*}
-            h_1(p) = F_1(Q_T(p)), \quad h_2(p) = F_2(Q_T(p))
-            \end{equation*}
-            \]</span></p>
-      </li>
-      <li>
-        <p>Transform Densities: <span class="math display">\[
-            \begin{equation*}
-            \tilde{f}_1(x) = f_1(h_1^{-1}(F_T(x))) \cdot \frac{d}{dx}
-            h_1^{-1}(F_T(x))
-            \end{equation*}
-            \]</span> <span class="math display">\[
-            \begin{equation*}
-            \tilde{f}_2(x) = f_2(h_2^{-1}(F_T(x))) \cdot \frac{d}{dx}
-            h_2^{-1}(F_T(x))
-            \end{equation*}
-            \]</span></p>
-      </li>
-    </ol>
-    <p>By following these steps, the densities <span class="math inline">\(f_1(x)\)</span> and <span
-        class="math inline">\(f_2(x)\)</span> are synchronized to the target
-      density <span class="math inline">\(f_T(x)\)</span>, ensuring that their
-      quantiles are aligned.</p>
-    <p>This method is particularly useful in functional data analysis where
-      aligning features across different functions is crucial for meaningful
-      comparisons and analyses.</p>
-    <h2 id="what-is-modes-of-variation">What is modes of variation?</h2>
-    <ol type="1">
-      <li>
-        <p>Mean Function: The mean function <span class="math inline">\(\mu(t)\)</span> is the average of all sample
-          curves <span class="math inline">\(X_i(t)\)</span>: <span class="math display">\[
-            \begin{equation*}
-            \mu(t) = \frac{1}{n} \sum_{i=1}^{n} X_i(t)
-            \end{equation*}
-            \]</span></p>
-      </li>
-      <li>
-        <p>Centered Curves: The centered curves are obtained by subtracting
-          the mean function from each sample curve: <span class="math display">\[
-            \begin{equation*}
-            Y_i(t) = X_i(t) - \mu(t)
-            \end{equation*}
-            \]</span></p>
-      </li>
-      <li>
-        <p>Covariance Function: The covariance function <span class="math inline">\(C(s, t)\)</span> describes the
-          covariance between
-          the values of the centered curves at different points <span class="math inline">\(s\)</span> and <span
-            class="math inline">\(t\)</span>: <span class="math display">\[
-            \begin{equation*}
-            C(s, t) = \frac{1}{n} \sum_{i=1}^{n} Y_i(s) Y_i(t)
-            \end{equation*}
-            \]</span></p>
-      </li>
-      <li>
-        <p>Eigenfunctions and Eigenvalues: The eigenfunctions <span class="math inline">\(\phi_k(t)\)</span> and
-          eigenvalues <span class="math inline">\(\lambda_k\)</span> of the covariance function are
-          obtained by solving the following integral equation: <span class="math display">\[
-            \begin{equation*}
-            \int C(s, t) \phi_k(t) \, \mathrm{d}t = \lambda_k \phi_k(s)
-            \end{equation*}
-            \]</span></p>
-      </li>
-      <li>
-        <p>Principal Components: The principal component scores <span class="math inline">\(a_{ik}\)</span> for each
-          sample curve are
-          calculated by projecting the centered curves onto the eigenfunctions:
-          <span class="math display">\[
-            \begin{equation*}
-            a_{ik} = \int Y_i(t) \phi_k(t) \, \mathrm{d}t
-            \end{equation*}
-            \]</span>
-        </p>
-      </li>
-      <li>
-        <p>Reconstruction: Each sample curve can be approximated using the
-          mean function and a finite number of principal components: <span class="math display">\[
-            \begin{equation*}
-            X_i(t) \approx \mu(t) + \sum_{k=1}^{K} a_{ik} \phi_k(t)
-            \end{equation*}
-            \]</span></p>
-      </li>
-      <li>
-        <p>Modes of Variation: The principal modes of variation are the
-          eigenfunctions <span class="math inline">\(\phi_k(t)\)</span>. They
-          represent the main patterns of variation in the sample curves. The first
-          mode of variation <span class="math inline">\(\phi_1(t)\)</span>
-          corresponds to the largest eigenvalue <span class="math inline">\(\lambda_1\)</span> and captures the most
-          significant pattern of variation. Subsequent modes capture progressively
-          smaller patterns of variation.</p>
-      </li>
-    </ol>
-    <p>For more functional principal component analysis, see <a
-        href="https://en.wikipedia.org/wiki/Functional_principal_component_analysis">here</a>.</p>
+    <h1 class="unnumbered" id="reference">Reference</h1>
     <div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
       <div id="ref-petersenFunctionalDataAnalysis2016" class="csl-entry" role="listitem">
         Petersen, Alexander, and Hans-Georg Müller. 2016. <span>“Functional
@@ -1809,5 +1522,3 @@
 
 
 </body>
-
-</html>
