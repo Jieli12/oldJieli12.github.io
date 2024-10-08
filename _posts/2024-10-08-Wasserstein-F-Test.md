@@ -9,6 +9,7 @@ tags:
   - Frechet regression
   - Confidence bands
 ---
+
   <style>
     code[class*=language-],
     pre[class*=language-] {
