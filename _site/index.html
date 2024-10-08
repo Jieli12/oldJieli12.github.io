@@ -9,6 +9,30 @@
 
   <!-- start custom analytics snippet -->
 <!-- Google tag (gtag.js) -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script type="text/javascript">
+    window.MathJax = {
+        tex: {
+            tags: "ams",
+            tagSide: "right",
+            tagIndent: "0.8em",
+            macros: {
+                coloneqq: ["\\mathrel{\\vcenter{:}}=", 0],
+                argmin: ["\\mathop{\\mathrm{arg\\,min\\,}}", 0],
+                argmax: ["\\mathop{\\mathrm{arg\\,max\\,}}", 0]
+            },
+            inlineMath: [["$", "$"], ["\\(", "\\)"]],
+            displayMath: [["$$", "$$"], ["\\[", "\\]"]]
+        },
+        options: {},
+        loader: {}
+    };
+</script>
+<script type="text/javascript" id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
+
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-3Y9VRE2QNL"></script>
 <script>
     window.dataLayer = window.dataLayer || [];
@@ -137,15 +161,33 @@
 <meta name="msapplication-TileImage" content="http://localhost:4000/images/mstile-144x144.png?v=M44lzPylqQ">
 <meta name="msapplication-config" content="http://localhost:4000/images/browserconfig.xml?v=M44lzPylqQ">
 <meta name="theme-color" content="#ffffff">
-<link rel="stylesheet" href="http://localhost:4000/assets/css/academicons.css"/>
+<link rel="stylesheet" href="http://localhost:4000/assets/css/academicons.css" />
 
 
-<!-- Support for MatJax -->
-<script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<!-- Support for MathJax -->
+<script type="text/javascript">
+    window.MathJax = {
+        tex: {
+            tags: "ams",
+            tagSide: "right",
+            tagIndent: "0.8em",
+            macros: {
+                coloneqq: ["\\mathrel{\\vcenter{:}}=", 0],
+                argmin: ["\\mathop{\\mathrm{arg\\,min\\,}}", 0],
+                argmax: ["\\mathop{\\mathrm{arg\\,max\\,}}", 0]
+            },
+            inlineMath: [["$", "$"], ["\\(", "\\)"]],
+            displayMath: [["$$", "$$"], ["\\[", "\\]"]]
+        },
+        options: {},
+        loader: {}
+    };
+</script>
+<script type="text/javascript" id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
 
 <!-- end custom head snippets -->
-
 </head>
 
 <body>
@@ -386,7 +428,7 @@
 
 <div class="page__footer-copyright">
   &copy; 2024 Jie Li, Powered by <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>, a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.<br />
-  Site last updated 2024-10-05
+  Site last updated 2024-10-08
 </div>
 
     </footer>

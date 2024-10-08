@@ -9,8 +9,6 @@ tags:
   - Frechet regression
   - Confidence bands
 ---
-
-
   <style>
     code[class*=language-],
     pre[class*=language-] {
@@ -890,7 +888,7 @@ tags:
   </script>
 
 
-
+<body for="html-export">
 
 
   <div class="crossnote markdown-preview  ">
@@ -935,7 +933,7 @@ tags:
       <span class="math inline">\(M(U) \sim g\)</span>. The squared Wasserstein
       distance between these two distributions is <span class="math display">\[
         \begin{equation*}
-        d_{\mathrm{W}}^{2}(f, g) \coloneqq \inf_{M \in \mathcal{M}_{f,g}}
+        d_{\mathrm{W}}^{2}(f, g) \mathrel{\vcenter{:}}= \inf_{M \in \mathcal{M}_{f,g}}
         \int_{\mathbb{R}} \left(M(u) - u\right)^2 f(u) \mathrm{d} u.
         \end{equation*}
         \]</span></p>
@@ -983,9 +981,9 @@ tags:
     The Wasserstein–Fréchet (or simply Wasserstein) mean and variance of
     <span class="math inline">\(\mathfrak{F}\)</span> are <span class="math display">\[
       \begin{equation}\label{eq: wMeanVar}
-      f_{\oplus}^{*} \coloneqq \argmin_{f \in \mathcal{D}}
+      f_{\oplus}^{*} \mathrel{\vcenter{:}}= \mathop{\mathrm{arg\,min\,}}_{f \in \mathcal{D}}
       E\left(d_{\mathrm{W}}^{2}(\mathfrak{F}, f)\right), \quad
-      \mathrm{Var}_\oplus(\mathfrak{F})\coloneqq
+      \mathrm{Var}_\oplus(\mathfrak{F})\mathrel{\vcenter{:}}=
       E\left(d_{\mathrm{W}}^{2}(\mathfrak{F}, f_{\oplus}^{*})\right).
       \end{equation}
       \]</span>
@@ -1027,7 +1025,7 @@ tags:
       interest is in the Fr'echet regression function, or function of
       conditional Fréchet means, <span class="math display">\[
         \begin{equation}\label{eq:condWMean}
-        f_{\oplus}(x) := \argmin_{f \in \mathcal{D}}
+        f_{\oplus}(x) := \mathop{\mathrm{arg\,min\,}}_{f \in \mathcal{D}}
         E\left[d_{\mathrm{W}}^{2}(\mathfrak{F}, f) | X = x\right], \quad x \in
         \mathfrak{S}_X.
         \end{equation}
@@ -1099,7 +1097,7 @@ tags:
       Fréchet regression, and
       takes the form of a weighted Fréchet mean <span class="math display">\[
         \begin{equation}\label{eq:Wmodel}
-        f_{\oplus}(x) = \argmin_{f \in \mathcal{D}} E\left[s(X,
+        f_{\oplus}(x) = \mathop{\mathrm{arg\,min\,}}_{f \in \mathcal{D}} E\left[s(X,
         x)d_{\mathrm{W}}^{2}(\mathfrak{F}, f)\right],
         \end{equation}
         \]</span> where the weight function is <span class="math display">\[
@@ -1138,7 +1136,7 @@ tags:
         <span class="math inline">\(L^{2}[0,1]\)</span>, an estimator of <span
           class="math inline">\(Q_{\oplus}(x)\)</span> is <span class="math display">\[
           \begin{equation}\label{eq:Qfit}
-          \hat{Q}_{\oplus}(x) = \argmin_{Q \in \mathfrak{Q}} \sum_{i = 1}^{n}
+          \hat{Q}_{\oplus}(x) = \mathop{\mathrm{arg\,min\,}}_{Q \in \mathfrak{Q}} \sum_{i = 1}^{n}
           s_{in}(x) {\left\lVert Q - Q_i \right\rVert}_{L^{2}}^{2}.
           \end{equation}
           \]</span> Implementation of this estimator is given in Algorithm 1 in
@@ -1151,7 +1149,7 @@ tags:
         for large samples with high probability. When this holds, the estimate
         <span class="math display">\[
           \begin{equation}\label{eq:fullEst}
-          \hat{f}_{\oplus}(x) = \argmin_{f \in \mathcal{D}} \frac{1}{n}\sum_{i =
+          \hat{f}_{\oplus}(x) = \mathop{\mathrm{arg\,min\,}}_{f \in \mathcal{D}} \frac{1}{n}\sum_{i =
           1}^{n} s_{in}(x)d_{\mathrm{W}}^{2}(\mathfrak{F}_i, f).
           \end{equation}
           \]</span> is well-defined, and <span class="math inline">\(\hat{f}_{\oplus}(x)\)</span> is the density
@@ -1343,3 +1341,13 @@ tags:
     </div>
 
   </div>
+
+
+
+
+
+
+
+
+
+</body>
