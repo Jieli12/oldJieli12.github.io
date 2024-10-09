@@ -8,12 +8,6 @@ tags:
   - Functional data analysis
 ---
 
-  <script type="text/javascript">
-    window.MathJax = ({ "tex": { "tags": "ams", "tagSide": "right", "tagIndent": "0.8em", "inlineMath": [["$", "$"], ["\\(", "\\)"]], "displayMath": [["$$", "$$"], ["\\[", "\\]"]] }, "options": {}, "loader": {} });
-  </script>
-  <script type="text/javascript" async="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
-    charset="UTF-8"></script>
-
 
 
 
